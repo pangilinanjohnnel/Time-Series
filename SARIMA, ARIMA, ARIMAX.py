@@ -7,8 +7,8 @@ from sklearn.metrics import mean_squared_error, mean_absolute_error
 import numpy as np
 
 # Load datasets
-exo = pd.read_csv(r"C:\Users\Johnnel\Desktop\TIP folder\1st year 2nd sem\advance data science\D 1.1.4\archive\MJ_Days_Played_Exog_Data.csv")
-nike = pd.read_csv(r"C:\Users\Johnnel\Desktop\TIP folder\1st year 2nd sem\advance data science\D 1.1.4\archive\Nike_Historical_Stock_Price_Refined.csv")
+exo = pd.read_csv(r"archive\MJ_Days_Played_Exog_Data.csv")
+nike = pd.read_csv(r"archive\Nike_Historical_Stock_Price_Refined.csv")
 
 # Merge on Date
 merge = pd.merge(nike, exo, on="Date")
