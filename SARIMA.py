@@ -7,7 +7,7 @@ from statsmodels.graphics.tsaplots import plot_pacf,plot_acf
 from sklearn.metrics import mean_squared_error, mean_absolute_error, mean_absolute_percentage_error,r2_score
 
 # Load datasets
-nike = pd.read_csv(r"C:\Users\Johnnel\Desktop\TIP folder\1st year 2nd sem\advance data science\D1.1.4\archive\Nike_Historical_Stock_Price_Refined.csv")
+nike = pd.read_csv(r"archive\Nike_Historical_Stock_Price_Refined.csv")
 
 # Set index and sort
 nike['Date'] = pd.to_datetime(nike['Date'])
