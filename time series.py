@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from statsmodels.tsa.seasonal import seasonal_decompose
 
 # Load data
-df = pd.read_csv(r"C:\Users\Johnnel\Desktop\TIP folder\1st year 2nd sem\advance data science\D 1.1\room temp\archive\MLTempDataset1.csv")
+df = pd.read_csv(r"archive\MLTempDataset1.csv")
 
 # Datetime conversion
 df["Datetime"] = pd.to_datetime(df["Datetime"])
